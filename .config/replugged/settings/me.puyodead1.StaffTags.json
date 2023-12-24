@@ -1,0 +1,36 @@
+{
+  "shouldShowServerOwnerTags": true,
+  "shouldShowGroupOwnerTags": true,
+  "shouldShowAdminTags": true,
+  "shouldShowModTags": true,
+  "shouldShowStaffTags": true,
+  "shouldShowCrowns": true,
+  "shouldShowForBots": true,
+  "shouldDisplayInChat": false,
+  "shouldDisplayInMemberList": true,
+  "useCustomTagColors": false,
+  "useCustomTagText": false,
+  "useCustomTagPermissions": false,
+  "tagTexts": {
+    "1": "Staff",
+    "2": "Mod",
+    "3": "Admin",
+    "4": "Server Owner",
+    "5": "Group Owner"
+  },
+  "tagColors": {
+    "1": "#8D5C51",
+    "2": "#C8682E",
+    "3": "#B4B4B4",
+    "4": "#ED9F1B",
+    "5": "#ED9F1B"
+  },
+  "tagPermissions": {
+    "1": [],
+    "2": []
+  },
+  "changelogLastSeen": null,
+  "shouldResetSettings": false,
+  "modifyBotTagColor": false,
+  "useCrownGold": true
+}

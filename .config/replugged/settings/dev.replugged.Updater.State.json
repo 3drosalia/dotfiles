@@ -1,0 +1,62 @@
+{
+  "dev.replugged.Replugged": {
+    "available": false,
+    "lastChecked": 1703404627232,
+    "url": "https://replugged.dev/api/v1/store/dev.replugged.Replugged.asar",
+    "version": "4.7.7"
+  },
+  "me.puyodead1.StaffTags": {
+    "available": false,
+    "lastChecked": 1703404627254,
+    "url": "https://replugged.dev/api/v1/store/me.puyodead1.StaffTags.asar",
+    "version": "1.0.25"
+  },
+  "dev.albertp.TwemojiEverywhere": {
+    "available": false,
+    "lastChecked": 1703404627237,
+    "url": "https://replugged.dev/api/v1/store/dev.albertp.TwemojiEverywhere.asar",
+    "version": "1.1.17"
+  },
+  "dev.albertp.NoNitroUpsell": {
+    "available": false,
+    "lastChecked": 1703404627232,
+    "url": "https://replugged.dev/api/v1/store/dev.albertp.NoNitroUpsell.asar",
+    "version": "1.1.1"
+  },
+  "org.mairimashita.Catppuccin.Macchiato": {
+    "available": false,
+    "lastChecked": 1703404627315,
+    "url": "https://replugged.dev/api/v1/store/org.mairimashita.Catppuccin.Macchiato.asar",
+    "version": "1.0.0"
+  },
+  "dev.markchan0225.RounedDiscord": {
+    "available": false,
+    "lastChecked": 1703404627300,
+    "url": "https://replugged.dev/api/v1/store/dev.markchan0225.RounedDiscord.asar",
+    "version": "1.1.0"
+  },
+  "dev.LuckFire.BubbleBar": {
+    "available": false,
+    "lastChecked": 1703404627273,
+    "url": "https://replugged.dev/api/v1/store/dev.LuckFire.BubbleBar.asar",
+    "version": "2.3.1"
+  },
+  "btw.bitslayn.discordicons": {
+    "available": false,
+    "lastChecked": 1703404627266,
+    "url": "https://replugged.dev/api/v1/store/btw.bitslayn.discordicons.asar",
+    "version": "1.0.13"
+  },
+  "dev.LuckFire.ModernIndicators": {
+    "available": false,
+    "lastChecked": 1703404627306,
+    "url": "https://replugged.dev/api/v1/store/dev.LuckFire.ModernIndicators.asar",
+    "version": "2.3.1"
+  },
+  "net.saltssaumure.LegacyChatty": {
+    "available": false,
+    "lastChecked": 1703404627318,
+    "url": "https://replugged.dev/api/v1/store/net.saltssaumure.LegacyChatty.asar",
+    "version": "2.2.0"
+  }
+}
