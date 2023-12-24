@@ -23,7 +23,7 @@
 #custom-music.music2,
 #custom-power {
   font-weight: bold;
-  background-color: @surface0;
+  background-color: #24273a;
   border-radius: 3em;
   padding: 0.4em 0.7em 0.4em 0.7em;
   margin: 20px 0.5em 0px 0.5em;
@@ -49,7 +49,7 @@
   margin: 20px 20px 0px 20px;
   padding: 0em 0.5em 0em 0.5em;
   border-radius: 30px;
-  background-color: @surface0;
+  background-color: @base;
 }
 
 #battery {
@@ -76,7 +76,6 @@
 
 #custom-music {
   color: @blue;
-  background-color: @surface0;
   font-weight: bold;
   margin-right: 0;
   padding-right: 0;

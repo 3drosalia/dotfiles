@@ -1,5 +1,7 @@
 {
   "disabled": [
-    "net.saltssaumure.LegacyChatty"
+    "net.saltssaumure.LegacyChatty",
+    "dev.LuckFire.ModernIndicators",
+    "dev.LuckFire.BubbleBar"
   ]
 }
