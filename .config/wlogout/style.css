@@ -1,0 +1,39 @@
+* {
+	background-image: none;
+}
+window {
+	background-color: rgba(12, 12, 12, 0.4);
+}
+button {
+	font-family: JetBrainsMono Nerd Font Mono;
+	font-size: 70pt;
+    color: #cad3f5;
+	padding: 10px;
+	padding-bottom: 15px;
+	padding-left: 52px;
+	padding-right: 50px;
+	background-color: #363a4f;
+	margin: 10px;
+	border-radius: 0.5em;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+
+button:focus, button:active, button:hover {
+	background-color: #c6a0f6;
+	color: #363a4f;
+	outline-style: none;
+}
+
+#lock {
+}
+
+#logout {
+}
+
+#shutdown {
+}
+
+#reboot {
+}

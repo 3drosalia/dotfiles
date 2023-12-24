@@ -1,0 +1,28 @@
+{
+    "label" : "lock",
+    "action" : "swaylock -c 1e2030",
+    "text" : "",
+    "keybind" : "",
+    "height" : 1
+}
+{
+    "label" : "logout",
+    "action" : "loginctl terminate-user $USER",
+    "text" : "󰗼",
+    "keybind" : "",
+    "height" : 1
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "",
+    "keybind" : "",
+    "height" : 1
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "",
+    "keybind" : "",
+    "height" : 1
+}
