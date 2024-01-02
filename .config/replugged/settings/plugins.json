@@ -1,5 +1,8 @@
 {
   "disabled": [
-    "dev.sammcheese.RepluggedPGP"
+    "dev.sammcheese.RepluggedPGP",
+    "me.puyodead1.StaffTags",
+    "dev.eboi.linkchannels",
+    "eu.shadygoat.cutecord"
   ]
 }
