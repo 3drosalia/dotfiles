@@ -37,7 +37,7 @@
         "interval": 5,
         "tooltip": false,
 	
-	"exec": "playerctl metadata --format='{{ title }}'",
+	"exec": "playerctl metadata title",
 	"format": "    {}   -",
         "on-click": "playerctl play-pause",
         "max-length": 50
@@ -45,7 +45,7 @@
     "custom/music#music2": {
 	"escape": true,
 	"interval":5,
-	"exec": "playerctl metadata --format='{{ artist }}'",
+	"exec": "playerctl metadata artist ",
 	"format": "  {}",
         "on-click": "playerctl play-pause",
         "max-length": 50

@@ -2,6 +2,7 @@
   "disabled": [
     "net.saltssaumure.LegacyChatty",
     "dev.LuckFire.ModernIndicators",
-    "dev.LuckFire.BubbleBar"
+    "dev.LuckFire.BubbleBar",
+    "org.mairimashita.Catppuccin.Macchiato"
   ]
 }
