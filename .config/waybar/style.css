@@ -1,15 +1,19 @@
 @import "macchiato.css";
 
 * {
+/* font size 17px */
   font-family: Red Hat Display;
-  font-size: 17px;
-  min-height: 15px;
+  font-size: 9px;
+    min-height: 0px;
 }
 
 #waybar {
-  background: transparent;
+  background: @mantle;
   color: @text;
-  margin: 0px;
+  margin: 10px;
+  border: 2px solid @surface0;
+  border-radius: 3em;
+
 }
 
 
@@ -18,38 +22,86 @@
 #backlight,
 #battery,
 #pulseaudio,
+#workspaces,
 #custom-button,
 #custom-music,
 #custom-music.music2,
 #custom-power {
+  font-size: 17px;
   font-weight: bold;
-  background-color: #24273a;
+  background-color: #363a4f;
   border-radius: 3em;
   padding: 0.4em 0.7em 0.4em 0.7em;
-  margin: 20px 0.5em 0px 0.5em;
-  margin-bottom: 0px;
-  
+  margin: 0.5em;
 }
 
-#custom-button {
-  color: @rosewater;
-  font-size: 25px;
+#workspaces {
+  	color: @red;
+  	padding: 10px;
+  	padding-left: 5px;
+  	padding-right: 5px;
+ 	border-width: 0;
+ 	border-radius: 100;
+}
+#workspaces button.visible {
+	font-size: 1px;
+	padding: 0px 6px 0px 6px;
+	margin: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-width: 0px;
+	background-color: @mauve;
+	border-radius: 100;
+}
+#workspaces button {
+	font-size: 1px;
+	padding: 0;
+	margin: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-width: 0px;	
+	background-color: @overlay0;
+	border-radius: 100;
+}
+#workspaces button:hover {	
+	background-color: @subtext1;
+}
+#custom-button.close {
+  color: @red;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  padding-right: 16px;
-  margin-left: 20px;
+  padding-right: 7px;
+  margin-right: 0;
+  border-radius: 3em 0em 0em 3em;
+}
+#custom-button.minimize {
+  color: @yellow;
+    padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0;
+  border-radius: 0em;
+  margin-right: 0;
+  padding-left: 8px;
+  padding-right: 10px;
+  
+}
+#custom-button.pause {
+	margin-right: 0;
+	  padding-top: 5px;
+  padding-bottom: 5px;
+    padding-left: 10px;
+	border-radius: 3em 0 0 3em;
+	padding-right: 7px;
 }
 
 #clock {
   color: @text;
   font-family: Red Hat Display;
   font-weight: 900;
-  font-size: 20pt;
-  margin: 20px 20px 0px 20px;
-  padding: 0em 0.5em 0em 0.5em;
-  border-radius: 30px;
-  background-color: @base;
+  font-size: 22pt;
+  margin: 0;
+  padding: 0;
 }
 
 #battery {
@@ -77,11 +129,11 @@
 #custom-music {
   color: @blue;
   font-weight: bold;
+  margin-left: 0;
   margin-right: 0;
   padding-right: 0;
   border-right: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 0;
 }
 #custom-music.music2 {
   font-style: italic;
@@ -98,17 +150,20 @@
     padding-right: 17px;
     padding-left: 12px;
     color: @red;
-    margin-right: 20px;
+    margin-left: 0;
+    border-radius: 0 3em 3em 0;
 }
 
 #window {
     color: @mauve;
-    border-radius: 3em;
+    border-radius: 0em 3em 3em 0em;
+    margin-left: 0;
 }
 
 #tray {
   padding-left:0.5em;
   padding-right:0.5em;
+  margin-right: 0;
   
-  border-radius: 3em;
+  border-radius: 3em 0em 0em 3em;
 }

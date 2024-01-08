@@ -1,79 +1,79 @@
 {
   "dev.replugged.Replugged": {
     "available": false,
-    "lastChecked": 1704661116082,
+    "lastChecked": 1704753815907,
     "url": "https://replugged.dev/api/v1/store/dev.replugged.Replugged.asar",
     "version": "4.7.7"
   },
   "me.puyodead1.StaffTags": {
     "available": false,
-    "lastChecked": 1704661116148,
+    "lastChecked": 1704753816012,
     "url": "https://replugged.dev/api/v1/store/me.puyodead1.StaffTags.asar",
     "version": "1.0.25"
   },
   "dev.albertp.TwemojiEverywhere": {
     "available": false,
-    "lastChecked": 1704661116134,
+    "lastChecked": 1704753815924,
     "url": "https://replugged.dev/api/v1/store/dev.albertp.TwemojiEverywhere.asar",
     "version": "1.1.17"
   },
   "dev.albertp.NoNitroUpsell": {
     "available": false,
-    "lastChecked": 1704661116079,
+    "lastChecked": 1704753815890,
     "url": "https://replugged.dev/api/v1/store/dev.albertp.NoNitroUpsell.asar",
     "version": "1.1.1"
   },
   "org.mairimashita.Catppuccin.Macchiato": {
     "available": false,
-    "lastChecked": 1704661116210,
+    "lastChecked": 1704753816002,
     "url": "https://replugged.dev/api/v1/store/org.mairimashita.Catppuccin.Macchiato.asar",
     "version": "1.0.0"
   },
   "dev.markchan0225.RounedDiscord": {
     "available": false,
-    "lastChecked": 1704661116189,
+    "lastChecked": 1704753815973,
     "url": "https://replugged.dev/api/v1/store/dev.markchan0225.RounedDiscord.asar",
     "version": "1.1.0"
   },
   "dev.LuckFire.BubbleBar": {
     "available": false,
-    "lastChecked": 1704661116196,
+    "lastChecked": 1704753815961,
     "url": "https://replugged.dev/api/v1/store/dev.LuckFire.BubbleBar.asar",
     "version": "2.3.1"
   },
   "btw.bitslayn.discordicons": {
     "available": false,
-    "lastChecked": 1704661116156,
+    "lastChecked": 1704753815958,
     "url": "https://replugged.dev/api/v1/store/btw.bitslayn.discordicons.asar",
     "version": "1.0.13"
   },
   "dev.LuckFire.ModernIndicators": {
     "available": false,
-    "lastChecked": 1704661116190,
+    "lastChecked": 1704753815984,
     "url": "https://replugged.dev/api/v1/store/dev.LuckFire.ModernIndicators.asar",
     "version": "2.3.1"
   },
   "net.saltssaumure.LegacyChatty": {
     "available": false,
-    "lastChecked": 1704661116204,
+    "lastChecked": 1704753816011,
     "url": "https://replugged.dev/api/v1/store/net.saltssaumure.LegacyChatty.asar",
     "version": "2.2.0"
   },
   "dev.eboi.linkchannels": {
     "available": false,
-    "lastChecked": 1704661116134,
+    "lastChecked": 1704753815925,
     "url": "https://replugged.dev/api/v1/store/dev.eboi.linkchannels.asar",
     "version": "1.0.5"
   },
   "dev.sammcheese.RepluggedPGP": {
     "available": false,
-    "lastChecked": 1704661116139,
+    "lastChecked": 1704753815907,
     "url": "https://replugged.dev/api/v1/store/dev.sammcheese.RepluggedPGP.asar",
     "version": "1.4.4"
   },
   "eu.shadygoat.cutecord": {
     "available": false,
-    "lastChecked": 1704661116148,
+    "lastChecked": 1704753815938,
     "url": "https://replugged.dev/api/v1/store/eu.shadygoat.cutecord.asar",
     "version": "3.1.0"
   }
