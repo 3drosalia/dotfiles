@@ -1,6 +1,6 @@
 configuration{
-    modi: "run,drun,window";
-    font: "Red Hat Display Black";
+	fullscreen: true;
+    modi: "run,drun,window,filebrowser";
     icon-theme: "Oranchelo";
     show-icons: true;
     terminal: "kitty";
@@ -8,13 +8,12 @@ configuration{
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
-    display-drun: " Apps ";
-    display-run: " Run ";
-    display-window: " Window ";
-    display-Network: " Network ";
+    display-drun: "Apps";
+    display-run: "Run";
+    display-window: "Window";
+    display-Network: "Network";
     sidebar-mode: true;
+    font: "Red Hat Display Black 15";
 }
 
-//@theme "catppuccin-mocha"
-
-@theme "/home/marie/.local/share/rofi/themes/catppuccin-macchiato.rasi"
+@theme "catppuccin-macchiato"

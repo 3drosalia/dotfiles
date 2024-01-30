@@ -1,7 +1,9 @@
 @import url("https://catppuccin.github.io/discord/dist/catppuccin-macchiato-mauve.theme.css");
 
 .chat__52833 {
-  margin-right: 10px !important;
+  margin-right: 0px !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .panels__58331 {
@@ -13,10 +15,15 @@ display: none;
 .buttonChild__7b90d {
   display: block !important;
 }
+.wrapper_a7e7a8 {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 :root {
-    --font-primary: 'Red Hat Text', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-display: 'Red Hat Display Black', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-headline: 'Red Hat Display Black', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-code: 'JetBrains Mono', 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+    --font-primary: 'Red Hat Text';
+    --font-display: 'Josefin Sans SemiBold';
+    --font-headline: 'Red Hat Display Black';
+    --font-code: 'JetBrains Mono';
 }

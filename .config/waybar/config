@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     // "width": 1280, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["custom/button#close", "custom/button#minimize", "hyprland/window", "custom/music", "custom/music#music2"],
+    "modules-left": ["custom/button#close", "custom/button#minimize", "hyprland/window", "image#album-art", "custom/music"],
     "modules-center": ["clock"],
     "margin-left": 20,
     "margin-right": 20,
@@ -47,14 +47,29 @@
         "icon-size": 21,
         "spacing": 10
     },
+	//"mpris": {
+	//	"format": "{status_icon} <i><b>{title}</b></i>  •  {artist}",
+	//	"status-icons": {
+	//		"paused": "",
+	//		"playing": ""
+	//	}
+	//},
+    "image#album-art": {
+         "exec":"~/.config/waybar/scripts/album_art.sh",
+         "size": 35,
+         "interval": 5,  
+    },
+
+    
     "custom/music": {
         "interval": 5,
         "tooltip": false,
-		"exec": "playerctl metadata --format '<b><span style=\"italic\">{{ title }}</span></b>  -  <span style=\"normal\">{{ artist }}</span>'",
-		"format": "\uf3b5   {}   ",
-        "on-click": "playerctl play-pause",
-        "max-length": 50
-    },
+		"exec": "playerctl metadata --format '<b><span style=\"italic\">{{ markup_escape(title) }}</span></b>  -  <span style=\"normal\">{{ markup_escape(artist) }}</span>'",
+		"format": "{}   ",
+		// \uf3b5
+      "on-click": "playerctl play-pause",
+     "max-length": 50
+   },
     // "custom/music#music2": {
 	//	"interval":5,
 	//	"tooltip": false,
@@ -74,15 +89,15 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon}     {capacity}%",
+        "format": "{icon}  {capacity}%",
         "format-icons": ["", "", "", "", ""]
     },
     "pulseaudio": {
         "scroll-step": 5, // %, can be a float
-        "format": "{icon} {volume}%",
+        "format": "{icon}  {volume}%",
         "format-muted": "",
         "format-icons": {
-            "default": ["  ", "  ", "   "]
+            "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
     },

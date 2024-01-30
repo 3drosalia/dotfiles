@@ -19,16 +19,16 @@
 
 #window,
 #tray,
+#image,
 #backlight,
 #battery,
 #pulseaudio,
 #workspaces,
 #custom-button,
 #custom-music,
-#custom-music.music2,
 #custom-power {
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 12pt;
+  font-weight: 900;
   background-color: #363a4f;
   border-radius: 3em;
   padding: 0.4em 0.7em 0.4em 0.7em;
@@ -89,7 +89,7 @@
 
 #clock {
   color: @text;
-  font-family: Red Hat Display;
+  font-family: Red Hat Display Black;
   font-weight: 900;
   font-size: 22pt;
   margin: 0;
@@ -119,14 +119,28 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-
+#image {
+	padding: 0;
+	padding-left: 0em;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em; 
+	border-top: 0;
+	border-left: 1em;
+	border-bottom: 0;
+	border-radius: 0;
+}
 #custom-music {
   color: @blue;
   font-weight: normal;
-  padding-right: 0;
+  margin-left: 0;
+  border-left: 0;
   border-right: 0;
-  border-radius: 3em;
+  padding-right: 0px;
+  border-radius: 0em 3em 3em 0em;
 }
+
+
 .artist {
 	font-weight: normal;
 }
@@ -142,9 +156,9 @@
 }*/
 
 #custom-power {
-    padding-left: 8px;
-    padding-right: 17px;
-    padding-left: 12px;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+  	padding-right: 10px;
     color: @red;
     margin-left: 0;
     border-radius: 0 3em 3em 0;
@@ -158,7 +172,7 @@
 
 #tray {
   padding-left:0.5em;
-  padding-right:0.5em;
+  padding-right:0.6em;
   margin-right: 0;
   
   border-radius: 3em 0em 0em 3em;
